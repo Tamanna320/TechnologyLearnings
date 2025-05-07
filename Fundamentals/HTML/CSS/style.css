@@ -1,0 +1,483 @@
+
+/* Element selector */
+/* h1{
+  color: blue;
+}
+p {
+  color: red;
+}
+
+button{
+    background-color: rgb(168, 47, 255);
+    color: white;
+}
+ */
+
+/* universal selector */
+/* 
+*{
+  color : pink;
+} */
+
+/* id selector */
+/* 
+#headingone{
+  color:purple;
+} */
+
+/* class selector*/
+/* .myclass{
+  color:rgb(157, 232, 157);
+}
+ */
+
+
+/* create simple div with id "box" Add some text content to inside the div, set background color to blue */ 
+/* 
+#box{
+  background-color: blue;
+  
+}  */
+
+
+/*create 3 headings with h1,h2 & h3 give them all a class heading and set their color "heading" to red.*/
+/* 
+.headings{
+  color: red;
+} */
+
+/* create a button and set its background color 
+1. green using stylesheet 
+2.blue using inline style
+3. red using <style> tag 
+*/
+/*
+button{
+  background-color: rgb(73, 190, 73);
+}
+
+h1{
+  text-align: center;
+  border:"2px solid black";
+}
+
+p{
+  text-align: left;
+}
+
+a{
+  text-align:center;
+  text-decoration: purple dotted underline;
+}
+
+h1{
+  font-weight: normal;
+
+}
+h2{
+  font-weight: bold;
+}
+
+h3{
+  font-weight: lighter;
+}
+
+/* 
+#one{
+font-style: italic;
+} */
+/* 
+#one{
+  font-size: 20px;
+  line-height: 20px;
+  text-transform: uppercase;
+}
+   */
+/* 
+div{
+  height: 100px;
+  width: 100px;
+  background-color: blue;
+  border-width: 2px;
+  border-style: solid;
+  border-color: red;
+  border-radius: 20px;
+  padding-left: 5cap;
+} */
+
+
+/* create div with height and width 100px
+set background color to green and border rerdius to 50% */
+/* 
+div{
+  height: 100px;
+  width: 100px;
+  background-color: green;
+  border-radius: 50%;
+}
+ */
+
+
+
+
+ /*amazon.in navbar*/
+/* *{
+  padding: 0;
+  margin: 0;
+  color: white;
+}
+
+
+div{
+  height: 50px;
+  background-color: #0f1111;
+}
+
+button{
+background-color: #f08804;
+}
+
+#logo{
+  color:#f08804;
+  font-size:25px;
+}
+
+a{
+  margin-right: 150px;
+  text-decoration: none;
+ } */
+
+/* 
+ div{
+  background-color: antiquewhite;
+  display:inline;
+ }
+
+ button{
+  display: block;
+ } */
+
+/* 
+ div{
+  background-color: antiquewhite;
+  display:inline-block;
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  } */
+
+  /* Rgba color */
+
+  /* #box1{
+    background-color: rgba(255, 0, 0, 0.5);
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+  }
+
+  #box2{
+    background-color: rgba(0, 255, 0, 0.5);
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+  }
+
+  #box3{
+    background-color: rgba(0, 0, 255, 0.5);
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+  } */
+
+
+/* Example: Adding valid CSS properties */
+/* 
+practice test Amazon
+*{
+  padding: 0;
+  margin: 0;
+  color:black;
+}
+
+
+#navbar{
+  height: 30px;
+  background-color: #0f1111;
+  height:60px;
+}
+
+button{
+background-color: #f08804;
+color:white
+}
+
+#logo{
+  margin-left: 2px;
+  color:#f08804;
+  font-size:25px;
+}
+
+input{
+  margin-left: 100px;
+}
+
+a{
+  color:white;
+  margin-left: 150px;
+  text-decoration: none;
+ }
+
+ footer{
+  color:white;
+  background-color: #0f1111;
+  text-align: center;  
+ }
+
+ #content{
+  height: 700px;
+ }
+
+
+
+.contentBox{
+ border:2px solid black;
+  height: 100px;
+  width: 100px;
+  margin: inline-block;
+  display: inline-block;
+} 
+
+ */
+/* unit in css
+ #box1{
+  background-color: green;
+  width: 200px;
+  height: 100px;
+  font-size: 10px;
+ }
+
+ #box2{
+  margin-left: 100px;
+  background-color:yellow;
+  width: 30%;
+  height: 50px;
+  font-size: 2em;  /* two times of perent element
+ }
+ */
+
+/* 
+ div{
+  Height: 100px;
+  width: 100px;
+  background-color: aqua;
+  border:2px solid black;
+  display:inline-block;
+ } */
+/* 
+
+for Position
+ #box1{
+  position: static;   /* default value 
+ } */
+/*
+ #box2{
+  position: relative; /* relative to its normal position 
+  top: 20px;         /* move down 20px from its normal position 
+ }
+*/
+/*
+ #box3{
+  position: absolute; /* relative to its nearest positioned ancestor 
+  top: 20px;         /* move down 20px from its normal position 
+  left: 20px;        /* move right 20px from its normal position 
+ }
+*/
+/*
+  #box4{
+    position: fixed;    /* relative to the viewport 
+    top: 20px;         /* move down 20px from its normal position 
+    left: 20px;        /* move right 20px from its normal position 
+  } */
+/* 
+#box1{
+  background-image:url(image.jpg) ;
+  background-size: cover; /* cover the entire element 
+} */
+
+
+/* love nature div */
+/* div{
+  height: 100px;
+  width: 100px;
+  background-image: url(image.jpg);
+  background-size:cover; /* cover the entire element 
+  color:black;
+  position:fixed;
+  right: 0px;
+  top:50px;
+}
+ */
+
+
+ /* flexBox */
+/* body{
+  text-align: center;
+}
+ 
+div{
+  height: 100px;
+  width: 150px;
+  display: inline-block;
+  border:2px solid black;
+
+} 
+
+#container{
+  width:700px;
+  height: 500px; /* full height of the viewport */
+  /* color: aliceblue;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center; /* row direction  
+}
+
+#box1{
+  background-color: red;
+
+}
+
+#box2{
+  background-color: green;
+}
+
+#box3{
+  background-color: blue;
+}
+
+#box4{
+  background-color: yellow;
+}
+
+#box5{
+  background-color: pink;
+} */
+
+
+/* practice test */
+/* .navbar{
+  background-color:pink;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+  background-color: aqua;
+}
+
+li{
+  list-style-type: none; 
+  display: inline;
+}
+
+.outer{
+  background-color: blue;
+  height: 400px;
+  width: 400px;
+  display: flex; /* enable flexbox layout *
+  justify-content: center;  /* center the content horizontally 
+  align-items: center; /* center the content vertically 
+}
+
+.inner{
+  background-color: red;
+  height: 200px;
+  width: 200px;
+} */
+
+/* @media Query*/
+/* div{
+  height: 50px;
+  width: 50px;
+  background-color:pink;
+}
+
+@media (width: 600px) {
+  div{
+    background-color: blue;
+  }
+}
+
+@media (min-width: 400px) {
+  div{
+    background-color: green;
+  }
+}
+
+@media (max-width: 800px)and (min-width: 600px) {
+  div{
+    background-color: red;
+  }
+}  */
+
+
+/* add media query to implement the following
+1.color of div changes to green for viewport width less then 300px
+2. color of div changes to pink for width between 300px to 400px
+3.color of div changes to red for width between 400px to 600px
+4.color of div changes to blue for width above 600px*/
+/* 
+div{
+  height: 100px;
+  width: 100px;
+ 
+}
+@media(max-width: 300px){
+    div{
+      
+      background-color: green;
+    }
+}
+@media(min-width: 300px) and (max-width: 400px){
+    div{
+        background-color: pink;
+    }
+}
+@media(min-width: 400px) and (max-width: 600px){
+    div{
+        background-color: red;
+    }
+}
+@media(min-width: 600px){
+    div{
+        background-color: blue;
+    }
+}
+ */
+
+ div{
+    height: 100px;
+    width: 100px;
+    background-color: aquamarine;
+    border:2px solid black;
+    transition-property:all;
+    transition-duration: 2s;
+    transition-timing-function: ease-in;
+    transition-delay: 1s;
+  }
+  
+  div:hover{
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+  }
+  
+  div:active{
+    background-color:pink;
+    color: white;
+    cursor: pointer;
+  }
+  
