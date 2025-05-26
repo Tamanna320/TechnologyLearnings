@@ -2,18 +2,23 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-import { AdvancedButton } from './components/AdvancedButton.tsx';
+import InputBox from './components/InputBox';
+
 
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
   
       <div>
-        <h1 className="text-2xl font-bold mb-4">Advanced Button Component</h1>
-      <AdvancedButton text="Button CTA" />
-    </div>
+         {/* <InputBox
+        label="Label"
+        placeholder="Placeholder"
+        helperText="Helper text"
+        addon={<img src="https://img.icons8.com/color/24/visa.png" alt="visa" />}
+      /> */}
+      </div>
+        
   )
 }
 
